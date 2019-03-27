@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+ <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dave B's Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+      <section id="header">  
+<!-- I am using the "header" to span the length of the page as a block element -->
+<!-- The "container" is to contain the name and link elements to keep them in line with the dimensions of the page-->
+        <div id="container">
+            <h1 id="name">
+            David Banville
+            </h1>
+            <!-- I know I don't need the id's and the classes right now, but better add safe then sorry -->
+             <a id="contact" class="links" href="contact.html"> Contact</a>
+            <a id="portfolio" class="links" href="portfolio.html"> Portfolio</a>
+            <a id="about" class="links" href="index.html"> About</a>
+        
+        </div>
+     </section>
+
+        <section id="body">
+        <h2>
+            Contact
+        </h2>
+<!-- cheating I know, don't judge me > -->
+<div id="linebreak">______________________________________________________________________________________________________________________</div>
+<form action="mailto:davidbanville4@gmail.com" method="post" enctype="text/plain">
+        
+        Name:<br>
+        <input id="inputName" type="text" name="name" ><br>
+        Email:<br>
+        <input id="inputEmail" type="text" name="email" ><br>
+        Message<br>
+        <textarea id="inputMessage" type="text" name="message" rows="5" ></textarea><br>
+        <!-- textarea tag is necesary for multi line inputs, needs a row attribute and closing tag. -->
+
+        <input type="submit" name="submit" id="submit">
+      </form>
+
+     
+
+        </section>
+
+        <footer id="footer">
+            <div id="foottop"></div>
+             Footer @ 2019
+        </footer>
+
+
+    </body>
+</html>
