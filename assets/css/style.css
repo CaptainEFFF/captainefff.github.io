@@ -49,10 +49,14 @@
     margin: 20px 10%;
     border-width: 5px;
     border: #dddddd;
+    min-height: 100%;
+    padding:20px;
+    padding-bottom: 50px;
 }
 
 body{
     background-image:url(../images/mosaic.png);
+    height:100%;
 }
 
 h2{
@@ -86,10 +90,10 @@ p{
     background-color: #666666;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-    position:sticky;
     bottom:0;
     height:30px;
     padding:10px 0 0;
+    margin-top: -50px;
 }
 
 #foottop{
