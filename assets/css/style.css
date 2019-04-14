@@ -1,174 +1,84 @@
-/* site wide styling */
-
-#name{
-    color:white;
-    background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position:absolute;
-    left:0;
-    margin:0 268px 10px 0px;
-    height:40px;
-    padding: 15px 5px;
-}
-
- .links{
-     color:white;
-     background-color:#4aaaa5;
-     font-family:Arial, Helvetica, sans-serif;
-     font-size: 20px;
-     text-align: center;
-     float:right;
-     width: 96px;
-     height:40px;
-     padding:15px 5px ;
-     margin-bottom: 10px;
-    
- }
-
- #container{
-     position:relative;
-     width:960px;
-     height: 70px;
-     margin: 0 50px 0 10%;
- }
-
- #header{
-     background-color: white;
-     position:sticky;
-     top:0;
-     height: 70px;
-     border:5px;
-     border-color: #cccccc;
- 
- }
-
-#body{
-
-    background-color: white;
-    width: 960px;
-    margin: 20px 10%;
-    border-width: 5px;
-    border: #dddddd;
-    min-height: 100%;
-    padding:20px;
-    padding-bottom: 50px;
-}
-
 body{
-    background-image:url(../images/mosaic.png);
-    height:100%;
+    background: url(../images/neon.jpg);
+    
 }
 
-h2{
-    color:#4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 30px 15px 10px;
-    padding: 20px 0 0;
-
+.profile{
+    width:300px;
+    height:250px;
+    margin: 1vh;
 }
 
-#linebreak{
-    text-align:center;
-    font-weight: bold;
-}
-
-#profile{
-    float:left;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-}
-
-p{
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-#footer{
+.container{
+    background-color: #1d1d1f;
     color: white;
-    background-color: #666666;
-    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.main-content{
+    min-height: 100%;
+    background-color: #1d1d1f90;
+    color: white;
+    margin: 0 auto -80px;
+    padding: 0 0 60px
+}
+
+
+.seperator{
+    background-color: white;
+    height:2px;
+    width:98%;
+    margin:1% 1%
+}
+
+.footer{
+    background-color: #1d1d1f;
+    color: white;
+    width:100%;
     text-align: center;
-    bottom:0;
-    height:30px;
-    padding:10px 0 0;
-    margin-top: -50px;
+    line-height: 60px;
+    height:80px;
 }
 
 #foottop{
-    background-color: #4aaaa5;
+    background-color: #02f3fe;
     position: relative;
-    top: -15px;
-    height: 5px
+    top: -1px;
+    height: 5px;
 }
 
-/* cotact page styling */
-
-form{
-    color: #4aaaa5;
-    font-size:20px;
-    margin: 0 10%
-}
-
-#inputName{
-width: 80%;
-margin: 5px 0;
-}
-
-#inputEmail{
-    width: 80%;
-    margin: 5px 0;
-}
-
-#inputMessage{
-    width: 80%;
-    margin: 5px 0;
-}
-
-#submit{
-    color: white;
-    background-color: #4aaaa5;
-    font-size: 15px;
-    font-weight:bold;
-    width: 80px;
-    height: 40px;
-    margin: 15px;
-}
-
-/* portfolio page styling */
-
-/* I personally prefer having the links 3 wide unlike the example */
 .port_link{
-    float: left;
+    
     position: relative;
-    width: 30%;
-    height: 250px;
-    margin: 10px 10px;
-}
-
-.port_image{
-    position: absolute;
     width: 300px;
-    height: 250px;
+    height: 300px;
+    margin:40px;
 }
 
-/* had to do rgb color scheme to change alpha/opacity */
+.port-image{
+    height:300px;
+    width: 300px;
+}
+
 .port_text{
     color:white;
-    background-color:rgb(74,170,165,.6);
+    background-color:#02f3fe90;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     text-align:center;
     position: absolute;
-    bottom:25px;
+    bottom:-100px;
+    left:0px;
     width:300px;
     height:40px;
-    padding:16px 0 0;
+    padding:8px 0 0;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.custom-margin{
+    margin-bottom:20px;
+}
+
+.caroPic{
+    height: 600px;
+
+}

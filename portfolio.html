@@ -1,69 +1,145 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dave's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
 
- <html> 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Dave B's Portfolio</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
-    <body>
-      <section id="header">  
-<!-- I am using the "header" to span the length of the page as a block element -->
-<!-- The "container" is to contain the name and link elements to keep them in line with the dimensions of the page-->
-        <div id="container">
-            <h1 id="name">
-            David Banville
+    <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">David Banville</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+              <br>
+    <!-- Main Content -->
+    <div class="container main-content">
+
+        <!-- Row 1 -->
+        <section class="row">
+            <h1 class="col-md-12">
+                My Portfolio
             </h1>
-            <!-- I know I don't need the id's and the classes right now, but better add safe then sorry -->
-             <a id="contact" class="links" href="contact.html"> Contact</a>
-            <a id="portfolio" class="links" href="portfolio.html"> Portfolio</a>
-            <a id="about" class="links" href="index.html"> About</a>
-        
-        </div>
-     </section>
+        </section>
+        <section class="row"> 
+            <div class="col.md.10 seperator">
+            </div>
+        </section>
+        <!-- Row 3 -->
+        <section class="row align-items-center mb-3">
 
-        <section id="body" class="clearfix">
-        <h2>
-             Portfolio
-        </h2>
-<!-- cheating I know, don't judge me > -->
-<div id="linebreak">______________________________________________________________________________________________________________________</div>
-    <a href="blank1.html"class="port_link">
-        <img class="port_image" src="assets/images/portimage1.jpg">
-        <div class="port_text">Current Projects</div>
-    </a>
-    <a href="blank2.html" class="port_link">
-        <img class="port_image" src="assets/images/portimage2.jpg">
-        <div class="port_text">Future Projects</div>
-    </a>
-    <a href="blank3.html" class="port_link">
-        <img class="port_image" src="assets/images/portimage3.jpg">
-        <div class="port_text">Finished Projects</div>
-    </a>
-    <a href="blank4.html" class="port_link">
-        <img class="port_image" src="assets/images/portimage4.jpg">
-        <div class="port_text">Number Games</div>
-    </a>
-    <a href="blank5.html" class="port_link">
-        <img class="port_image" src="assets/images/portimage5.jpg">
-        <div class="port_text">Photography</div>
-    </a>
-    <a href="blank6.html" class="port_link">
-        <img class="port_image" src="assets/images/portimage6.jpg">
-        <div class="port_text">The World</div>
-    </a>
-   
-       
+            <div class="col.md.4 custom-margin">
+                <a href="blank1.html"class="port_link">
+                    <img class="img-thumbnail port-image" src="assets/images/portimage1.jpg">
+                    <div class="port_text">Current Projects</div>
+                </a>
+            </div>
+
+            <div class="col.md.4 custom-margin">
+                <a href="https://captainefff.github.io/Word_Guess_Game/"class="port_link">
+                    <img class="img-thumbnail port-image" src="assets/images/portimage2.jpg">
+                    <div class="port_text">Smash Bros Hangman</div>
+                </a>
+            </div>
+
+            <div class="col.md.4 custom-margin">
+                <a href="blank3.html"class="port_link">
+                    <img class="img-thumbnail port-image" src="assets/images/portimage3.jpg">
+                    <div class="port_text">Finished Projects</div>
+                </a>
+            </div>
+        
+            
+            <div class="col.md.4 custom-margin">
+                <a href="https://sites.google.com/site/djgamersinc/games" class="port_link">
+                    <img class="img-thumbnail port-image" src="assets/images/portimage4.jpg">
+                    <div class="port_text">My Old Highschool Portfolio</div>
+                </a>
+            </div>
+            
+            <div class="col.md.4 custom-margin">
+                <a href="photography.html" class="port_link">
+                    <img class="img-thumbnail port-image" src="assets/images/portimage5.jpg">
+                    <div class="port_text">Photography (Click Me)</div>
+                </a>
+            </div>
+                
+            <div class="col.md.4 custom-margin">
+                <a href="blank6.html" class="port_link">
+                    <img class="img-thumbnail port-image" src="assets/images/portimage6.jpg">
+                    <div class="port_text">The World</div>
+                </a>
+            </div>
+            
+
         </section>
 
-        <footer id="footer">
-            <div id="foottop"></div>
-            Footer @ 2019
-        </footer>
+        <br>
 
+        <div class="row">
+            <div class="col-sm-4">
+              <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Linkedin</h5>
+                  <p class="card-text">Connect with me on Linkedin.</p>
+                  <a href="https://www.linkedin.com/in/david-banville-30713b1b/" target="_blank" class="btn btn-primary">Go to Linkedin</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">YouTube</h5>
+                  <p class="card-text">Connect with me on YouTube.</p>
+                  <a href="https://www.youtube.com/user/DJGamersinc/featured?view_as=subscriber" target="_blank" class="btn btn-primary">Go to YouTube</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Twitch</h5>
+                  <p class="card-text">Connect with me on Twitch</p>
+                  <a href="https://www.twitch.tv/captain_efff" target="_blank" class="btn btn-primary">Go to Twitch</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    </body>
+    </div>
+
+    <br>
+
+    <footer class="footer">
+            
+        <div class="container"></div>
+        <div id="foottop"></div>
+                David Banville UNH Boot Camp 2019
+        </div>
+        
+    </footer>
+</body>
 </html>
