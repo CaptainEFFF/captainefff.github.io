@@ -51,15 +51,38 @@
         <!-- Row 3 -->
         <section class="row">
             <section class="col-md-12">
-                    
-                    <div>
-                        <p>Name:</p>
-                        <p>David R Banville</p>
-                        <p>Email address:</p>
-                        <p>davidbanville4@gmail.com</p>
-                        <p>Phone:</p>
-                        <p>(978)-317-7604</p>      
+                    <h3> My info</h3>
+                    <div class="align-center">
+                        <p>Name: David R Banville</p>
+                        <p>Email: davidbanville4@gmail.com</p>
+                        <p>Phone: (978)-317-7604</p>      
                     </div>
+
+                    <div class="col.md.10 seperator">
+                      </div>
+
+                    <h2>Sign the Guestboook</h2>
+                    <form>
+                      <div class = "form-group">
+                        <label for = "firstName">First Name</label>
+                        <input type = "name" class = "form-control" id = "firstName" placeholder="">
+                      </div>
+                      <div class = "form-group">
+                        <label for = "lastName">Last Name</label>
+                        <input type = "lastName" class = "form-control" id = "lastName" placeholder="">
+                      </div>
+                      <div class = "form-group">
+                        <label for = "email">Email</label>
+                        <input type = "email" class = "form-control" id = "email" placeholder="">
+                      </div>
+                      <div class = "form-group">
+                        <label for = "info">How did you find my site?</label>
+                        <input type = "text" class = "form-control" id = "info" placeholder="">
+                      </div>
+                      <button type = "submit" id = "addGuest" class= "btn btn-primary">Submit</button>
+                    </form>
+
+
 
             </section>
 
@@ -110,5 +133,7 @@
         </div>
         
     </footer>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src='assets/javascript/app.js' async defer></script>
 </body>
 </html>
