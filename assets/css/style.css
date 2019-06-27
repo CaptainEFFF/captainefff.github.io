@@ -83,3 +83,8 @@ body{
     height: 600px;
 
 }
+
+.jumbotron{
+    background-color: #1d1d1f;
+    color: white;
+}
